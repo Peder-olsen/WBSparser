@@ -1,0 +1,182 @@
+ --uuid:df930220-a0c1-46ba-9a64-97161c400a1c+id=348215 Content-ID:
+<http://tempuri.org/0>
+    Content-Transfer-Encoding: 8bit Content-Type: application/xop+xml;charset=utf-8;type="application/soap+xml"
+
+    <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+        <s:Header>
+            <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/BookingSearchResponse</a:Action>
+            <a:RelatesTo>urn:uuid:5650b00a-470a-42fb-b5a1-cecb9792d6bf</a:RelatesTo>
+        </s:Header>
+        <s:Body>
+            <BookingSearchResponse xmlns="http://tempuri.org/">
+                <BookingSearchResult xmlns:b="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Model.Transportmodel" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                    <b:Transport z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+                        <b:Afhentning>
+                            <b:Adresse>C. F. Tietgens Boulevard 12</b:Adresse>
+                            <b:AdresseHashCode>321370067</b:AdresseHashCode>
+                            <b:Bemaerkning>Leveres senest kl 08.00</b:Bemaerkning><b:Bemaerkning2 i:nil="true" />
+                            <b:By>Odense SÃ</b:By>
+                            <b:FirmaNavn>Danske FragtmÃ¦nd Fyn</b:FirmaNavn><b:FirmaNavn2 i:nil="true" />
+                            <b:FirmaTelefon>72522700</b:FirmaTelefon><b:KontaktEmail/><b:KontaktNavn/><b:KontaktTelefon/>
+                            <b:Land>DK</b:Land>
+                            <b:Lat>55,3696458400000</b:Lat>
+                            <b:LatLonPrecision>ExactMatch</b:LatLonPrecision><b:LoadPoint i:nil="true" />
+                            <b:Lon>10,4959548700000</b:Lon>
+                            <b:Postnummer>5220</b:Postnummer><b:Stednavn/></b:Afhentning>
+                        <b:Afsender><b:Adresse i:nil="true" /><b:Adresse2 i:nil="true" /><b:By i:nil="true" /><b:Email i:nil="true" /><b:Kontaktperson i:nil="true" />
+                            <b:Land>DK</b:Land><b:Navn i:nil="true" /><b:Navn2 i:nil="true" /><b:Postnummer i:nil="true" /><b:Telefon i:nil="true" /></b:Afsender>
+                        <b:Bestiller>
+                            <b:Adresse>A. Jakobsens VÃ¦nge 21</b:Adresse>
+                            <b:AdresseHashCode>1608601413</b:AdresseHashCode>
+                            <b:By>Odense SÃ</b:By>
+                            <b:FirmaNavn>HARALD NYBORG A/S</b:FirmaNavn><b:FirmaTelefon/><b:KontaktEmail i:nil="true" /><b:KontaktNavn i:nil="true" /><b:KontaktTelefon i:nil="true" />
+                            <b:Land>DK</b:Land>
+                            <b:Lat>55,3558237200000</b:Lat>
+                            <b:LatLonPrecision>ExactMatch</b:LatLonPrecision>
+                            <b:Lon>10,4900688300000</b:Lon><b:PNr i:nil="true" />
+                            <b:Postnummer>5220</b:Postnummer>
+                            <b:Ref1>Ikke originalt fragtbrev</b:Ref1><b:Stednavn i:nil="true" /></b:Bestiller>
+                        <b:ControlFields><b:Control i:nil="true" /></b:ControlFields>
+                        <b:FindFragtbrev>false</b:FindFragtbrev>
+                        <b:FragtbrevMangler>false</b:FragtbrevMangler>
+                        <b:Info><b:AfsenderReference i:nil="true" /><b:Afsenderkundenummer i:nil="true" /><b:Bestillerkundenummer i:nil="true" />
+                            <b:BookingContentVersion>3</b:BookingContentVersion><b:BookingImporttype i:nil="true" />
+                            <b:BookingNummer>0052103063</b:BookingNummer>
+                            <b:BookingOpdateret>false</b:BookingOpdateret>
+                            <b:BookingTilstand>Udisponeret</b:BookingTilstand>
+                            <b:BookingVersion>726</b:BookingVersion>
+                            <b:BulkedToFC2>false</b:BulkedToFC2>
+                            <b:Created>2019-09-25T08:48:37.0643538</b:Created>
+                            <b:DisponerendeVirksomhed>01102012</b:DisponerendeVirksomhed>
+                            <b:DotFraFC1>false</b:DotFraFC1>
+                            <b:EjendeVirksomhed>01102012</b:EjendeVirksomhed><b:FBCreatedByWBS i:nil="true" /><b:FBPrintetHosKunden i:nil="true" /><b:Fragtbetaler i:nil="true" />
+                            <b:FragtbrevForAlle>false</b:FragtbrevForAlle><b:Fragtbrevsnumre xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /><b:Fragtbrevstype i:nil="true" />
+                            <b:Frankatur>Ingen</b:Frankatur>
+                            <b:Gentagelse>
+                                <b:Dag>0</b:Dag>
+                                <b:Fredag>false</b:Fredag>
+                                <b:LÃ¸rdag>false</b:LÃ¸rdag>
+                                <b:Mandag>true</b:Mandag>
+                                <b:MÃ¥nedligtType>Dag</b:MÃ¥nedligtType>
+                                <b:Numerale>FÃ¸rste</b:Numerale>
+                                <b:Onsdag>true</b:Onsdag>
+                                <b:Periode>1</b:Periode>
+                                <b:StartDato>2016-02-19T07:18:38.103</b:StartDato>
+                                <b:SÃ¸ndag>false</b:SÃ¸ndag>
+                                <b:Tirsdag>true</b:Tirsdag>
+                                <b:Torsdag>true</b:Torsdag>
+                                <b:Type>Ugentligt</b:Type>
+                                <b:Ugedag>Mandag</b:Ugedag>
+                            </b:Gentagelse><b:GeoLookupDone i:nil="true" /><b:HijackedBy i:nil="true" />
+                            <b:HijackedTimestamp>1753-01-01T00:00:00</b:HijackedTimestamp>
+                            <b:IndleveretPaaFC1>false</b:IndleveretPaaFC1>
+                            <b:IsKurer>false</b:IsKurer><b:LaesseBemaerkning i:nil="true" />
+                            <b:LaesselisteUdskrevet>false</b:LaesselisteUdskrevet>
+                            <b:LastUsedAsStaaende>2019-09-24T08:56:39.1930774</b:LastUsedAsStaaende>
+                            <b:LosselisteUdskrevet>false</b:LosselisteUdskrevet>
+                            <b:LossesIHal>false</b:LossesIHal><b:MasterBookingNummer i:nil="true" /><b:Modtagerkundenummer i:nil="true" /><b:ModtagerÃbningstid i:nil="true" />
+                            <b:Natlevering>false</b:Natlevering>
+                            <b:OprindeligTransportType>DT</b:OprindeligTransportType>
+                            <b:Oprindelsessted>WBS</b:Oprindelsessted>
+                            <b:Partigods>false</b:Partigods>
+                            <b:PartigodsFraFC1>false</b:PartigodsFraFC1><b:Reference1 i:nil="true" /><b:Reference2 i:nil="true" /><b:Reference3 i:nil="true" /><b:Reference4 i:nil="true" />
+                            <b:Returgods>false</b:Returgods>
+                            <b:Returkoncept>false</b:Returkoncept><b:ReturmailSendt i:nil="true" /><b:ServiceKode i:nil="true" />
+                            <b:SkjultForDisponenter>false</b:SkjultForDisponenter><b:StatusReplyQueue i:nil="true" /><b:Tags i:nil="true" /><b:TidsLeveringSenestDato i:nil="true" /><b:TidsLeveringSenestTid i:nil="true" /><b:TidsLeveringTidligstDato i:nil="true" /><b:TidsLeveringTidligstTid
+                                i:nil="true" />
+                            <b:TransportStatus>Ingen</b:TransportStatus>
+                            <b:TransportType>DT</b:TransportType>
+                            <b:Updated>2019-09-25T09:47:46.0425023</b:Updated>
+                        </b:Info>
+                        <b:IsSynchronized>false</b:IsSynchronized><b:LER_Timestamp i:nil="true" /><b:LEV_Timestamp i:nil="true" /><b:LFF_Timestamp i:nil="true" /><b:LMM_Timestamp i:nil="true" /><b:LPA_Timestamp i:nil="true" />
+                        <b:Metadata z:Id="i2" xmlns:c="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Model.Shared">
+                            <c:Data i:nil="true" />
+                        </b:Metadata>
+                        <b:Modtager><b:Aabningstid i:nil="true" />
+                            <b:Adresse>MÃ¸lmarksvej 191</b:Adresse>
+                            <b:AdresseHashCode>-1381699480</b:AdresseHashCode><b:Bemaerkning i:nil="true" /><b:Bemaerkning2 i:nil="true" />
+                            <b:By>Svendborg</b:By>
+                            <b:FirmaNavn>Harald Nyborg</b:FirmaNavn><b:FirmaNavn2 i:nil="true" /><b:FirmaTelefon i:nil="true" /><b:KontaktEmail i:nil="true" /><b:KontaktNavn i:nil="true" /><b:KontaktTelefon i:nil="true" />
+                            <b:Land>DK</b:Land>
+                            <b:Lat>55,0624352500000</b:Lat>
+                            <b:LatLonPrecision>ExactMatch</b:LatLonPrecision>
+                            <b:Lon>10,5900867300000</b:Lon><b:Lukketid i:nil="true" />
+                            <b:Postnummer>5700</b:Postnummer><b:Stednavn i:nil="true" /><b:UnloadPoint i:nil="true" /></b:Modtager>
+                        <b:OprettetFraFragtbrev>false</b:OprettetFraFragtbrev>
+                        <b:RowVersion>0|0|0|0|44|188|221|21</b:RowVersion><b:Tag i:nil="true" />
+                        <b:TransportData>
+                            <b:Bemaerkning>Ikke partigods 828 Peder Olsen</b:Bemaerkning><b:Bemaerkning2 i:nil="true" /><b:Byttepaller i:nil="true" />
+                            <b:Colli>
+                                <b:TransportColli>
+                                    <b:Antal>11</b:Antal>
+                                    <b:Art>PLL</b:Art><b:Bredde i:nil="true" /><b:FarligtGods/><b:Hoejde i:nil="true" />
+                                    <b:ID>29304387</b:ID>
+                                    <b:Indhold>Harald Nyborg vare ( ca pl antal ) </b:Indhold><b:Kollikoder xmlns:c="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Model.Shared.Transportmodel" />
+                                    <b:Ladmeter>4.4</b:Ladmeter><b:Laengde i:nil="true" /><b:MarkAndNumber i:nil="true" /><b:Rumfang i:nil="true" />
+                                    <b:Stabelbar>false</b:Stabelbar>
+                                    <b:Vaegt>1</b:Vaegt><b:Varelinjer/></b:TransportColli>
+                            </b:Colli><b:EfterkravBeloeb i:nil="true" /><b:EfterkravKontant i:nil="true" /><b:EfterkravValuta i:nil="true" /><b:FC1 i:nil="true" /><b:FC1Navn i:nil="true" /><b:FC2 i:nil="true" /><b:FC2Navn i:nil="true" />
+                            <b:FM1Rute>828</b:FM1Rute><b:FM2Rute i:nil="true" /><b:Forsendelsestype i:nil="true" /><b:ForsikringBeloeb i:nil="true" /><b:ForsikringType i:nil="true" /><b:ForsikringValuta i:nil="true" /><b:FragtbrevsBemaerkning i:nil="true" /><b:Halvpaller
+                                i:nil="true" /><b:Helpaller i:nil="true" /><b:Kvartpaller i:nil="true" /><b:MaerkeNr i:nil="true" /><b:TotalLadmeter i:nil="true" /><b:TotalPallepladser i:nil="true" /><b:TvungenColliscanning i:nil="true" /></b:TransportData>
+                        <b:TransportLegs>
+                            <b:TransportLeg z:Id="i3">
+                                <b:AdviceOnETA>false</b:AdviceOnETA><b:AfhSenestDato i:nil="true" /><b:AfhSenestTID i:nil="true" /><b:AfhTidligstDato i:nil="true" /><b:AfhTidligstTID i:nil="true" /><b:Afhentningstid i:nil="true" /><b:BeskedTilBooking/>
+                                <b:BookingDato_ForSearch>2019-09-25 18:00:00</b:BookingDato_ForSearch>
+                                <b:BookingStatusPosition>
+                                    <b:Latitude>0</b:Latitude>
+                                    <b:Longitude>0</b:Longitude>
+                                    <b:Sampletime>0001-01-01T00:00:00</b:Sampletime>
+                                </b:BookingStatusPosition>
+                                <b:BundleGuid>41bdde7e-bb5d-4ef8-9e0e-549ebb47b083</b:BundleGuid><b:Chauffoer/>
+                                <b:Created>2019-09-25T08:48:18.8739351</b:Created>
+                                <b:DelafhentningAfhentet>0</b:DelafhentningAfhentet>
+                                <b:DelafhentningRest>0</b:DelafhentningRest>
+                                <b:DesignatedList>DO</b:DesignatedList><b:EMailAdvisering i:nil="true" />
+                                <b:ETARequired>false</b:ETARequired><b:EksterntMateriel i:nil="true" /><b:Eta i:nil="true" /><b:EtaBeregnet i:nil="true" />
+                                <b:ExcludeFromBundles>true</b:ExcludeFromBundles><b:ExternalBookingId i:nil="true" /><b:FaktiskLeveringDato i:nil="true" /><b:FaktiskLeveringTid i:nil="true" /><b:Fragtcentralkode i:nil="true" />
+                                <b:ID>21069490</b:ID>
+                                <b:IsInBundle>false</b:IsInBundle>
+                                <b:Klartid>2019-09-25T16:00:00</b:Klartid><b:Label/>
+                                <b:LaesseZone>HN</b:LaesseZone>
+                                <b:LeveretUdenforDot>false</b:LeveretUdenforDot>
+                                <b:LeveringDato>2019-09-26T00:00:00</b:LeveringDato>
+                                <b:LeveringKlartid>2016-02-22T07:30:00</b:LeveringKlartid>
+                                <b:LeveringLukketid>2016-02-22T08:00:00</b:LeveringLukketid>
+                                <b:Lukketid>2019-09-25T18:00:00</b:Lukketid><b:MaterielType i:nil="true" /><b:Materielnummer i:nil="true" /><b:OprindeligEksterntMateriel i:nil="true" />
+                                <b:OprindeligKlartid>2019-09-25T16:00:00</b:OprindeligKlartid>
+                                <b:OprindeligLeveringDato>2019-09-26T00:00:00</b:OprindeligLeveringDato>
+                                <b:OprindeligLeveringKlartid>2016-02-22T07:30:00</b:OprindeligLeveringKlartid>
+                                <b:OprindeligLeveringLukketid>2016-02-22T08:00:00</b:OprindeligLeveringLukketid>
+                                <b:OprindeligLukketid>2019-09-25T18:00:00</b:OprindeligLukketid><b:OprindeligMaterielnummer i:nil="true" /><b:Parent z:Ref="i1" /><b:PictureCount i:nil="true" /><b:Pictures/><b:Placeringsbeskrivelse i:nil="true" />
+                                <b:RemovedFromDOT_Fan>false</b:RemovedFromDOT_Fan>
+                                <b:Routing>
+                                    <b:Disponent>82808903</b:Disponent>
+                                    <b:DisponentName>Casper Hvid</b:DisponentName>
+                                    <b:DisponerendeVirksomhed>73287316</b:DisponerendeVirksomhed>
+                                    <b:EjendeVirksomhed>01102012</b:EjendeVirksomhed>
+                                    <b:HasBounced>false</b:HasBounced>
+                                    <b:InteressentVirksomhed>01102012,</b:InteressentVirksomhed><b:KundeVirksomhed i:nil="true" />
+                                    <b:OprindeligDisponerendeVirksomhed>01102012</b:OprindeligDisponerendeVirksomhed>
+                                    <b:SliptidCountDownStarted>2019-09-25T08:57:05.4694139</b:SliptidCountDownStarted>
+                                    <b:SliptidElapsedSeconds>0</b:SliptidElapsedSeconds>
+                                    <b:SliptidEnabled>true</b:SliptidEnabled>
+                                    <b:SliptidUdloeber>30</b:SliptidUdloeber><b:Videresendt i:nil="true" /></b:Routing>
+                                <b:Rute>828</b:Rute><b:SMSAdvisering i:nil="true" />
+                                <b:SavedHash>19130dc6-05dc-448b-8449-600cafe6dc22</b:SavedHash>
+                                <b:SendtTilPda>0001-01-01T00:00:00</b:SendtTilPda>
+                                <b:Status>Ingen</b:Status><b:StatusText i:nil="true" />
+                                <b:TidsAfhentning>false</b:TidsAfhentning>
+                                <b:Tidslevering>false</b:Tidslevering><b:TildeltUdkoerendeAnsvarlig i:nil="true" />
+                                <b:Tilstand>Udisponeret</b:Tilstand><b:TilstandAfsluttetTimestamp i:nil="true" /><b:TilstandLeveretTimestamp i:nil="true" />
+                                <b:TransportBenNummer>0052103064</b:TransportBenNummer>
+                                <b:TransportSortOrder>0</b:TransportSortOrder><b:Tur i:nil="true" />
+                                <b:Type>DT</b:Type>
+                                <b:Updated>2019-09-25T09:47:46.0425023</b:Updated>
+                            </b:TransportLeg>
+                        </b:TransportLegs>
+                    </b:Transport>
+                </BookingSearchResult>
+            </BookingSearchResponse>
+        </s:Body>
+    </s:Envelope>
+    --uuid:df930220-a0c1-46ba-9a64-97161c400a1c+id=348215--

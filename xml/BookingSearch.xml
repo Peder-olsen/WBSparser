@@ -1,0 +1,18 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/BookingSearch</a:Action>
+        <a:MessageID>urn:uuid:5650b00a-470a-42fb-b5a1-cecb9792d6bf</a:MessageID>
+        <a:ReplyTo>
+            <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+        </a:ReplyTo>
+        <a:To s:mustUnderstand="1">http://wbs.fragt.dk/WBS-Service/WBSService.svc</a:To>
+    </s:Header>
+    <s:Body>
+        <BookingSearch xmlns="http://tempuri.org/">
+            <token>${this.sessionKey}</token>
+            <fritekst>"${term}"</fritekst>
+            <maxResults>101</maxResults>
+            <searchInArchive>false</searchInArchive>
+        </BookingSearch>
+    </s:Body>
+</s:Envelope>

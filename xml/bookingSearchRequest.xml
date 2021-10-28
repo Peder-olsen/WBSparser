@@ -1,0 +1,7 @@
+--uuid:e1a4c970-d351-4839-aa55-ff03ac1f7645+id=17
+Content-ID: <http://tempuri.org/0>
+Content-Transfer-Encoding: 8bit
+Content-Type: application/xop+xml;charset=utf-8;type="application/soap+xml"
+
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing"><s:Header><a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/BookingSearch</a:Action><a:MessageID>urn:uuid:5650b00a-470a-42fb-b5a1-cecb9792d6bf</a:MessageID><a:ReplyTo><a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address></a:ReplyTo><a:To s:mustUnderstand="1">http://wbs.fragt.dk/WBS-Service/WBSService.svc</a:To></s:Header><s:Body><BookingSearch xmlns="http://tempuri.org/"><token>248713af-752d-42d6-b7fd-2a119b780193</token><fritekst>"0052103063"</fritekst><maxResults>101</maxResults><searchInArchive>false</searchInArchive></BookingSearch></s:Body></s:Envelope>
+--uuid:e1a4c970-d351-4839-aa55-ff03ac1f7645+id=17--

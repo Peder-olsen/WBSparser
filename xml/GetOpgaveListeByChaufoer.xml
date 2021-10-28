@@ -1,0 +1,17 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/GetOpgaveListeByChauffoer</a:Action>
+        <a:MessageID>urn:uuid:ff219188-7d24-4fec-9b13-0bdff2d31387</a:MessageID>
+        <a:ReplyTo>
+            <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+        </a:ReplyTo>
+        <a:To s:mustUnderstand="1">https://wbsservice.fragt.dk/wbs-service/WBSService.svc</a:To>
+    </s:Header>
+    <s:Body>
+        <GetOpgaveListeByChauffoer xmlns="http://tempuri.org/">
+            <token>${this.sessionKey}</token>
+            <chauffoer>${id}</chauffoer>
+            <selectedDate>${currDate}</selectedDate>
+        </GetOpgaveListeByChauffoer>
+    </s:Body>
+</s:Envelope>

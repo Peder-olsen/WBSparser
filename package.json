@@ -1,0 +1,24 @@
+{
+  "name": "wbsparser",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "request": "^2.88.0",
+    "xml-js": "^1.6.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clonex/WBSparser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clonex/WBSparser/issues"
+  },
+  "homepage": "https://github.com/Clonex/WBSparser#readme"
+}

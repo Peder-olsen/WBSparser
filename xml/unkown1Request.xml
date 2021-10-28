@@ -1,0 +1,16 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/GetChanges</a:Action>
+        <a:MessageID>urn:uuid:52b9f2b5-74c1-4ac6-a3b5-0618a79cc7e5</a:MessageID>
+        <a:ReplyTo>
+            <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+        </a:ReplyTo>
+        <a:To s:mustUnderstand="1">http://wbs.fragt.dk/WBS-Service/WBSService.svc</a:To>
+    </s:Header>
+    <s:Body>
+        <GetChanges xmlns="http://tempuri.org/">
+            <token>d34c133d-309f-4acf-92f2-55f82cbaf828</token>
+            <notificationInfo i:nil="true" xmlns:b="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Bll.Controllers" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+        </GetChanges>
+    </s:Body>
+</s:Envelope>

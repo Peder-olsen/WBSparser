@@ -1,0 +1,20 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/GetGeopositions</a:Action>
+        <a:MessageID>urn:uuid:76b787f3-b1ea-4d3e-9236-c9ad05490224</a:MessageID>
+        <a:ReplyTo>
+            <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+        </a:ReplyTo>
+        <a:To s:mustUnderstand="1">https://wbsservice.fragt.dk/wbs-service/WBSService.svc</a:To>
+    </s:Header>
+    <s:Body>
+        <GetGeopositions xmlns="http://tempuri.org/">
+            <token>9595b697-221d-40c4-ae91-da53fe9c87bf</token>
+            <startTime>2020-01-02T22:29:05.6508137+01:00</startTime>
+            <endTime>2020-01-02T23:44:05.6508137+01:00</endTime>
+            <ident>82808963</ident>
+            <posType>Driver</posType>
+            <pageId i:nil="true" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" />
+        </GetGeopositions>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,17 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/LogonEx2</a:Action>
+        <a:MessageID>urn:uuid:7dd51bad-7214-41de-964f-b6b4ee4e9cb7</a:MessageID>
+        <a:ReplyTo>
+            <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+        </a:ReplyTo>
+        <a:To s:mustUnderstand="1">http://wbs.fragt.dk/WBS-Service/WBSService.svc</a:To>
+    </s:Header>
+    <s:Body>
+        <LogonEx2 xmlns="http://tempuri.org/">
+            <username>USRNAME</username>
+            <password>PASS</password>
+            <clientVersion>2.22.4.1753 (ClickOnce deployet)</clientVersion>
+        </LogonEx2>
+    </s:Body>
+</s:Envelope>

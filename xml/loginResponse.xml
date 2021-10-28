@@ -1,0 +1,74 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://tempuri.org/IWBSService/LogonEx2Response</a:Action>
+        <a:RelatesTo>urn:uuid:7dd51bad-7214-41de-964f-b6b4ee4e9cb7</a:RelatesTo>
+    </s:Header>
+    <s:Body>
+        <LogonEx2Response xmlns="http://tempuri.org/">
+            <LogonEx2Result xmlns:b="DisponeringsBackend.Bll.Bll" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <b:ADPath>TBD</b:ADPath>
+                <b:CompanySettings xmlns:c="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Model">
+                    <c:AllowSplit>false</c:AllowSplit>
+                    <c:AllowWBSAccess>true</c:AllowWBSAccess>
+                    <c:AlternativeKoerelisteGodslinieText i:nil="true" />
+                    <c:BulkModulTillaeg i:nil="true" />
+                    <c:CVR>73287316</c:CVR>
+                    <c:DefaultCOOPReportEMailAddress/>
+                    <c:ETACalcKundenumre i:nil="true" />
+                    <c:EnableAftaler>false</c:EnableAftaler>
+                    <c:EnableAutoBundlingForDO>false</c:EnableAutoBundlingForDO>
+                    <c:EnableBookingOverSMS>false</c:EnableBookingOverSMS>
+                    <c:EnableCustomerMustFillModtagerPostNr>false</c:EnableCustomerMustFillModtagerPostNr>
+                    <c:EnableExportToCOOP>false</c:EnableExportToCOOP>
+                    <c:EnableFlaadestyring>false</c:EnableFlaadestyring>
+                    <c:EnableFrankoUfranko>true</c:EnableFrankoUfranko>
+                    <c:EnableKoereplaner>false</c:EnableKoereplaner>
+                    <c:EnableLabelOnCreateBooking>true</c:EnableLabelOnCreateBooking>
+                    <c:EnableMateriel>false</c:EnableMateriel>
+                    <c:EnableOverdragGlobalt>false</c:EnableOverdragGlobalt>
+                    <c:EnableRef1>true</c:EnableRef1>
+                    <c:EnableTurplanlaegning>false</c:EnableTurplanlaegning>
+                    <c:EnableUdskrivKoereListe>false</c:EnableUdskrivKoereListe>
+                    <c:ExternalChauffoersAllowed>false</c:ExternalChauffoersAllowed>
+                    <c:GlobalSearch>false</c:GlobalSearch>
+                    <c:ID>58</c:ID>
+                    <c:IgnoreTilstandWhenBundling>false</c:IgnoreTilstandWhenBundling>
+                    <c:OphoejValidation>false</c:OphoejValidation>
+                    <c:RegKMTidPaaTur>false</c:RegKMTidPaaTur>
+                    <c:WMSIntegration>false</c:WMSIntegration>
+                    <c:WMSIntegrationKundenumre i:nil="true" />
+                    <c:WarnOnCraneRequired>true</c:WarnOnCraneRequired>
+                    <c:WarnOnLengthExceeding>605</c:WarnOnLengthExceeding>
+                    <c:WarnOnTidslevering>true</c:WarnOnTidslevering>
+                    <c:WarnOnWeightExceeding>0</c:WarnOnWeightExceeding>
+                    <c:WarnOnWidthExceeding>0</c:WarnOnWidthExceeding>
+                </b:CompanySettings>
+                <b:Disponeringsvirksomhed>73287316</b:Disponeringsvirksomhed>
+                <b:DoLogClientNotifications>false</b:DoLogClientNotifications><b:Email i:nil="true" />
+                <b:IsDFBulk>false</b:IsDFBulk>
+                <b:IsFCDisponent>false</b:IsFCDisponent>
+                <b:IsServicemedarbejder>false</b:IsServicemedarbejder>
+                <b:Name>Michael Salling</b:Name><b:Password i:nil="true" />
+                <b:PropertiesString>AsyncReport=true</b:PropertiesString>
+                <b:Rights xmlns:c="http://schemas.datacontract.org/2004/07/DisponeringsBackend.Bll.Bll.Controllers">
+                    <c:Rights>Adressekartotek</c:Rights>
+                    <c:Rights>Autorouter</c:Rights>
+                    <c:Rights>Disponering</c:Rights>
+                    <c:Rights>Disponeringsgrupper</c:Rights>
+                    <c:Rights>Disponeringstid</c:Rights>
+                    <c:Rights>Labels</c:Rights>
+                    <c:Rights>Pulje</c:Rights>
+                    <c:Rights>Settings</c:Rights>
+                    <c:Rights>StaaendeBookingSkabeloner</c:Rights>
+                    <c:Rights>UddelegerDisponering</c:Rights>
+                </b:Rights>
+                <b:Roles xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+                    <c:string>Disponent</c:string>
+                </b:Roles>
+                <b:SessionKey>d34c133d-309f-4acf-92f2-55f82cbaf828</b:SessionKey>
+                <b:TimeCreated>2019-09-25T14:51:03.923081+02:00</b:TimeCreated><b:Tlf i:nil="true" />
+                <b:UserName>82801234</b:UserName>
+            </LogonEx2Result>
+        </LogonEx2Response>
+    </s:Body>
+</s:Envelope>
