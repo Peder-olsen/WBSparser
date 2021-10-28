@@ -30,10 +30,10 @@ export default class Webfragt {
 
     async getKolis()
     {
-        const ture = Promise.all([
+        const ture = (await Promise.all([
             this.ture(false),
             this.ture(true),
-        ]).then(d => d).flat();
+        ])).flat();
         let out = {};
         for(let i = 0; i < ture.length; i++)
         {
