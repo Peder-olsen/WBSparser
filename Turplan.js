@@ -23,14 +23,17 @@ export default class Webfragt {
             "Fragtbrevsnummer": null,
             "State": "Planning,Processing,LoadingStarted,LoadingFinished,Delivering",
             "ShowFutureDeliveries": tomorrow,
-            "filteredDays": 100,
+            "filteredDays": tomorrow ? 100 : 0,
             "searchValue": ""
         });
     }
 
     async getKolis()
     {
-        const ture = await this.ture(true);
+        const ture = Promise.all([
+            this.ture(false),
+            this.ture(true),
+        ]).then(d => d).flat();
         let out = {};
         for(let i = 0; i < ture.length; i++)
         {
