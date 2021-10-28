@@ -13,7 +13,7 @@ export default class Webfragt {
         if(data)
         {
             this._auth = data.AccessToken;
-        }
+        } 
     }
 
     async ture(tomorrow = false)
