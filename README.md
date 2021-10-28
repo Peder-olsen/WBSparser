@@ -1,6 +1,6 @@
 # Installation
 ```sh
-yarn add https://github.com/Clonex/WBSparser.git
+yarn add https://github.com/Peder-olsen/WBSparser.git
 ```
 
 # Example usage
