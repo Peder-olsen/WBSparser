@@ -16,6 +16,11 @@ export default class Webfragt {
         } 
     }
 
+    getFragtbrev(nr)
+    {
+        return this._req("Leverance/FindLeverance?fragtbrevsnummer=" + nr);
+    }
+
     async ture(tomorrow = false)
     {
         return this._req("Tur/GetTure?_t=" + Date.now(), {
@@ -87,7 +92,7 @@ export default class Webfragt {
     _req(endpoint, body)
     {
         var options = {
-            'method': 'POST',
+            'method': body ? 'POST' : "GET",
             'url': 'https://turplan.fragt.dk/api/' + endpoint,
             'headers': {
                 'Content-Type': ' application/json',
