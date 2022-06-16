@@ -1,9 +1,16 @@
-# Installation
+# WBSparser
+Blev originalt lavet til at trække data ud fra WBS-programmet. Men er senere blevet udvidet til at trække data ud fra:
+- WBS
+- DFMobil
+- Turplan
+- Webfragt
+
+## Installation
 ```sh
 yarn add https://github.com/Peder-olsen/WBSparser.git
 ```
 
-# Example usage
+## Example usage
 ```javascript
 import WB from "wbsparser";
 
