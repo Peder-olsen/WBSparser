@@ -1,9 +1,9 @@
 # WBSparser
 Blev originalt lavet til at trække data ud fra WBS-programmet. Men er senere blevet udvidet til at trække data ud fra:
-- WBS
+- [WBS](http://wbs.fragt.dk/wbs-app/welcome.htm)
 - DFMobil
-- Turplan
-- Webfragt
+- [Turplan](https://turplan.fragt.dk/)
+- [Webfragt](https://webfragt.fragt.dk/)
 
 ## Installation
 ```sh
